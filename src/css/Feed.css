@@ -3,9 +3,18 @@
   min-width: 500px;
   max-width: 735px;
   height: fit-content;
+  min-height: calc(100vh - 70px - 25px - 73px);
   margin: auto;
   box-sizing: border-box;
   color: #f5f5f5;
+}
+
+@media screen and (max-width: 520px) {
+  .Feed {
+    width: 95%;
+    min-width: 95%;
+    max-width: 95%;
+  }
 }
 
 .title {

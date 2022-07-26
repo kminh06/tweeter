@@ -80,7 +80,6 @@ export default function Tweets(props) {
             </div>
           </div>
         </div>)}
-      <Footer />
     </>
   )
 }

@@ -6,6 +6,7 @@ import { db } from '../firebase/config';
 import Header from './Header';
 import Tweets from './Tweets';
 import '../css/Profile.css'
+import Footer from './Footer';
 
 export default function User() {
   const { currentUser } = useAuth()
@@ -125,6 +126,7 @@ export default function User() {
       <div className='Profile'>
         {userInfo}
       </div>
+      <Footer />
     </>
   )
 }

@@ -6,6 +6,7 @@ import { onSnapshot, query, orderBy, limit, collection, addDoc, getDocs, QuerySn
 import '../css/Feed.css'
 import Tweets from './Tweets'
 import { Route, Routes, useNavigate } from 'react-router-dom';
+import Footer from './Footer';
 
 export default function Feed(props) {
   const { currentUser } = useAuth()
@@ -106,6 +107,7 @@ export default function Feed(props) {
           <Tweets list={tweet} />
         </div>
       </div>
+      <Footer />
     </>
   )
 }
