@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { useAuth } from '../AuthContext';
 import Header from './Header'
 import { db } from '../firebase/config'
-import { onSnapshot, query, orderBy, limit, collection, addDoc, getDocs, QuerySnapshot, where, doc, getDoc } from 'firebase/firestore'
+import { onSnapshot, query, orderBy, limit, collection, addDoc, getDocs, QuerySnapshot, where, doc } from 'firebase/firestore'
 import '../css/Feed.css'
 import Tweets from './Tweets'
-import { Route, Routes, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Footer from './Footer';
 
 export default function Feed(props) {

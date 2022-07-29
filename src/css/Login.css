@@ -1,7 +1,8 @@
 .Login {
   text-align: center;
   user-select: none;
-  margin-bottom: 20px;
+  height: fit-content;
+  min-height: calc(100vh - 70px);
 }
 
 #title {
@@ -57,6 +58,6 @@
   background-color: #1566ce;
 }
 
-.Login > #footer {
+.no-border {
   border: 0 !important;
 }

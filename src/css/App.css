@@ -75,10 +75,13 @@
 }
 
 #footer {
-  width: 100%;
+  width: 60%;
+  min-width: 500px;
+  max-width: 735px;
   box-sizing: border-box;
   padding: 25px;
   border-top: 1px solid #f5f5f5;
+  margin: auto;
 }
 
 #interactive-row {
