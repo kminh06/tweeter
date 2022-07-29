@@ -86,14 +86,6 @@ export default function User() {
     }
   }
 
-  function btnHidden(status) {
-    if (status === "followed") {
-      return "hidden"
-    } else {
-      return
-    }
-  }
-
   if (user !== undefined) {
     userInfo = (
       <>
